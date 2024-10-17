@@ -65,18 +65,27 @@ experiences:
     title: Experiences
     info:
       - role: Site Reliability Engineer
-        time: March 2021 - now
+        time: April 2024 - now
+        company: Wiit AG
+        details: |
+          Joining as former part of Cloud & Edge from German Edge Cloud
+      - role: Site Reliability Engineer
+        time: March 2023 - April 2024
         company: German Edge Cloud GmbH & Co. KG, Eschborn, Hessen, Germany
         details: |
+          <b>Elastic Cloud Enterprise:</b><br>
+          Led the technical project management for the Elastic Cloud Enterprise (ECE) platform, overseeing installation on hardware nodes and maintaining the entire ecosystem using automation tools such as Terraform, Ansible, and GitLab CI/CD for streamlined and efficient operations.
+      - role: Junior Site Reliability Engineer
+        time: March 2021 - March 2023
+        company: German Edge Cloud GmbH & Co. KG, Eschborn, Hessen, Germany
+        details: |
+          <b>Customer Service & Support:</b><br>
+          Effectively manage and create customer platforms utilizing automation tools. Set up servers and applications for customers tailored to their specific needs and use cases.
+
           <b>Elastic:</b><br>
           Successfully orchestrated the installation of Elasticsearch clusters, demonstrating expertise in configuring and managing policies. Proficiently implemented Logstash for efficient log data processing. Additionally, executed the migration of clusters to Elastic Cloud Enterprise (ECE),
           ensuring a smooth transition and optimal performance in the Elasticsearch environment.
 
-          <b>Elastic Cloud Enterprise:</b><br>
-          Helped installing the Elastic Cloud Enterprise (ECE) platform on hardware nodes and maintained the entire ecosystem using automation tools such as Terraform, Ansible, Gitlab CI/CD for streamlined and efficient management.
-
-          <b>Customer Support:</b><br>
-          Effectively manage and create customer platforms utilizing automation tools
       - role: vOffice Cloud Engineer
         time: Aug 2020 - Feb 2021
         company: German Edge Cloud GmbH & Co. KG, Eschborn, Hessen, Germany
@@ -137,13 +146,32 @@ certifications:
       list:
         - name: Elastic Certified Engineer
           start: May 2022
-          end: May 2024
+          end: May 2026
           organization: Elastic
           credentialid: 50811346
           credentialurl:
           credentialname: Elastic Certified Engineer
           details: |
+            The Elastic Certified Engineer exam tests your knowledge and skills in building a complete Elasticsearch solution — including the ability to install, configure,
+            and manage Elasticsearch clusters, index data into those clusters, and query and analyze the indexed data.
 
+            The Elastic Certification Program is designed for IT professionals who have experience building and deploying Elasticsearch solutions.
+            Professionals become certified by completing challenging and relevant real-world tasks on a live Elastic Stack cluster in our hands-on,
+            performance-based exams.
+        - name: Elastic Certified Observability Engineer
+          start: May 2024
+          end: May 2026
+          organization: Elastic
+          credentialid: 103073406
+          credentialurl:
+          credentialname: Elastic Certified Engineer
+          details: |
+            The Elastic Certified Observability Engineer exam tests your knowledge and skills on using the Elastic Stack 
+            to implement observability — from ingesting metrics, logs, and APM data to Elasticsearch, to analyzing and reacting to events using 
+            machine learning and alerting in Kibana.
+
+            The Elastic Certified Observability Engineer exam is designed for Software Developers,
+            Software Engineers, Data Architects, DevOps, SREs, System Administrators, and other IT professionals.
 skills:
     title: Skills &amp; Proficiency
     toolset:
@@ -161,8 +189,8 @@ skills:
         level: 50%
       - name: Terraform
         level: 50%
-      - name: Ubuntu server administration.
-        level: 50%
+      - name: Debian-based server administration.
+        level: 60%
       - name: git cli
         level: 50%
       - name: Gitlab
