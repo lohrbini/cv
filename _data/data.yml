@@ -13,6 +13,7 @@ sidebar:
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
+
     email: mail@skl.works
     timezone: Europe/Berlin
     website: blog.cawfee.site #do not add http://
@@ -20,6 +21,7 @@ sidebar:
     xing: Julian_Lohrber
     github: lohrbini
     telegram: # add your nickname without '@' sign
+
     languages:
       title: Languages
       info:
